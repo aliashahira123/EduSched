@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "sistem informasi jadwal sekolah",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "Dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
-}
+  "license": "ISC",
+    "dependencies": {
+      "express": "^4.21.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.7"
+    }
+  }
+  
